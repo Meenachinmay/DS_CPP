@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{94af2b2e-55eb-44e1-b5bc-6841cffd6380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\DataStructure">
+      <UniqueIdentifier>{82d20796-f569-4af7-abb3-66701a4192eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\DataStructure\Queue">
+      <UniqueIdentifier>{58d0306a-3213-43c0-a42d-9acb3de64fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\DataStructure\Stack">
+      <UniqueIdentifier>{fed54cf9-e96c-4ccb-9512-a9a16fa4c5a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Algorithms">
+      <UniqueIdentifier>{1e45264d-0797-4c1c-b841-b97fa412b7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Algorithms\DFS">
+      <UniqueIdentifier>{05aace99-8e21-475a-a772-969106284706}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>src\DataStructure\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>src\DataStructure\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS.cpp">
+      <Filter>src\Algorithms\DFS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Queue.h">
+      <Filter>src\DataStructure\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>src\DataStructure\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="DFS.h">
+      <Filter>src\Algorithms\DFS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
